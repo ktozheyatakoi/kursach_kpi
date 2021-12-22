@@ -1,0 +1,359 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/Tests/Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Core/InventorySklad.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Core/InventorySklad.Core.csproj",
+        "projectName": "InventorySklad.Core",
+        "projectPath": "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Core/InventorySklad.Core.csproj",
+        "packagesPath": "/Users/sasavasilenko/.nuget/packages/",
+        "outputPath": "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sasavasilenko/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Data/InventorySklad.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Data/InventorySklad.Data.csproj",
+        "projectName": "InventorySklad.Data",
+        "projectPath": "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Data/InventorySklad.Data.csproj",
+        "packagesPath": "/Users/sasavasilenko/.nuget/packages/",
+        "outputPath": "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sasavasilenko/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Core/InventorySklad.Core.csproj": {
+                "projectPath": "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Core/InventorySklad.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Onion/InventorySklad.Onion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Onion/InventorySklad.Onion.csproj",
+        "projectName": "InventorySklad.Onion",
+        "projectPath": "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Onion/InventorySklad.Onion.csproj",
+        "packagesPath": "/Users/sasavasilenko/.nuget/packages/",
+        "outputPath": "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Onion/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sasavasilenko/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Core/InventorySklad.Core.csproj": {
+                "projectPath": "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Core/InventorySklad.Core.csproj"
+              },
+              "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Data/InventorySklad.Data.csproj": {
+                "projectPath": "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Data/InventorySklad.Data.csproj"
+              },
+              "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Orchestrators/InventorySklad.Orchestrators.csproj": {
+                "projectPath": "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Orchestrators/InventorySklad.Orchestrators.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Orchestrators/InventorySklad.Orchestrators.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Orchestrators/InventorySklad.Orchestrators.csproj",
+        "projectName": "InventorySklad.Orchestrators",
+        "projectPath": "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Orchestrators/InventorySklad.Orchestrators.csproj",
+        "packagesPath": "/Users/sasavasilenko/.nuget/packages/",
+        "outputPath": "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Orchestrators/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sasavasilenko/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Core/InventorySklad.Core.csproj": {
+                "projectPath": "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Core/InventorySklad.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/Tests/Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/Tests/Tests.csproj",
+        "projectName": "Tests",
+        "projectPath": "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/Tests/Tests.csproj",
+        "packagesPath": "/Users/sasavasilenko/.nuget/packages/",
+        "outputPath": "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sasavasilenko/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Data/InventorySklad.Data.csproj": {
+                "projectPath": "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Data/InventorySklad.Data.csproj"
+              },
+              "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Onion/InventorySklad.Onion.csproj": {
+                "projectPath": "/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Onion/InventorySklad.Onion.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

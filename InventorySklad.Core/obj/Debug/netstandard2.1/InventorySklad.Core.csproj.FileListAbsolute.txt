@@ -1,0 +1,9 @@
+/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Core/bin/Debug/netstandard2.1/InventorySklad.Core.deps.json
+/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Core/bin/Debug/netstandard2.1/InventorySklad.Core.dll
+/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Core/bin/Debug/netstandard2.1/InventorySklad.Core.pdb
+/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Core/obj/Debug/netstandard2.1/InventorySklad.Core.csprojAssemblyReference.cache
+/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Core/obj/Debug/netstandard2.1/InventorySklad.Core.AssemblyInfoInputs.cache
+/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Core/obj/Debug/netstandard2.1/InventorySklad.Core.AssemblyInfo.cs
+/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Core/obj/Debug/netstandard2.1/InventorySklad.Core.csproj.CoreCompileInputs.cache
+/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Core/obj/Debug/netstandard2.1/InventorySklad.Core.dll
+/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/InventorySklad.Core/obj/Debug/netstandard2.1/InventorySklad.Core.pdb

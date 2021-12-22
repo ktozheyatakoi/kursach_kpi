@@ -1,0 +1,16 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=20DA87F8_002DF633_002D4C82_002D9E5E_002DD8BEA9122B74_002Fd_003ASklad_002Ff_003ASkladProfile_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3f7b7931_002D298c_002D4117_002D99eb_002Dad9bfd591501/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;TestProject1&amp;gt; #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/Tests" Presentation="&amp;lt;Tests&amp;gt;" /&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=671813a8_002D8341_002D47ce_002Da87e_002D782cb2946735/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SkladController_Add_AddsSkladToDatabase" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::D3BBF743-8AB4-4504-AB99-DCF5DB356B4A::net5.0::Tests.UnitTest1.SkladController_Add_AddsSkladToDatabase&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8a061526_002Da259_002D4306_002D9d44_002Ddf213a687956/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;TestProject1&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/TestProject1" Presentation="&amp;lt;TestProject1&amp;gt;" /&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b682631f_002Db764_002D4adf_002D979f_002Dcee0bc1f6455/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SkladController_Add_AddsSkladToDatabase #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="/Users/sasavasilenko/RiderProjects/InventorySklad.Onion/Tests" Presentation="&amp;lt;Tests&amp;gt;" /&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
